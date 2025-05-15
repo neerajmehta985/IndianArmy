@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Indian Army</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="Indian Flag">
+                <h1>Indian Army</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">War Stories</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+           
+        </div>
+    </header>
+
+    <section class="contact-hero">
+        <div class="contact-hero-overlay"></div>
+        <div class="contact-hero-content">
+            <h1>Contact Us</h1>
+            <p>Get in touch with the Indian Army</p>
+        </div>
+    </section>
+
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Headquarters</h2>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>Integrated Headquarters of Ministry of Defence (Army), South Block, New Delhi-110011</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Phone</h3>
+                        <p>+91-11-23010231</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>davp@nic.in</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-globe"></i>
+                        <h3>Website</h3>
+                        <p><a href="https://indianarmy.nic.in" target="_blank">indianarmy.nic.in</a></p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="recruitment-info">
+                <h2>Recruitment Information</h2>
+                <div class="recruitment-cards">
+                    <div class="recruitment-card">
+                        <i class="fas fa-user-graduate"></i>
+                        <h3>Officer Recruitment</h3>
+                        <p>For graduates who wish to join as commissioned officers through NDA, CDS, TES, etc.</p>
+                        <a href="https://joinindianarmy.nic.in" class="btn-recruit" target="_blank">Learn More</a>
+                    </div>
+                    <div class="recruitment-card">
+                        <i class="fas fa-user-shield"></i>
+                        <h3>JCO/OR Recruitment</h3>
+                        <p>For candidates who wish to join as Junior Commissioned Officers or Other Ranks.</p>
+                        <a href="https://joinindianarmy.nic.in" class="btn-recruit" target="_blank">Learn More</a>
+                    </div>
+                    <div class="recruitment-card">
+                        <i class="fas fa-medal"></i>
+                        <h3>Agniveer Scheme</h3>
+                        <p>The new Agnipath scheme for recruitment of soldiers for a four-year tenure.</p>
+                        <a href="https://agnipathvayu.cdac.in" class="btn-recruit" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Indian Army</a></li>
+                        <li><a href="blog.html">War Stories</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Official Links</h3>
+                    <ul>
+                        <li><a href="https://indianarmy.nic.in" target="_blank">Indian Army Website</a></li>
+                        <li><a href="https://joinindianarmy.nic.in" target="_blank">Join Indian Army</a></li>
+                        <li><a href="https://mod.gov.in" target="_blank">Ministry of Defence</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Indian Army. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

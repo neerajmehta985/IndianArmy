@@ -575,7 +575,9 @@ p {
     .main-nav ul.active {
         display: flex;
     }
-
+.main-nav ul{
+    gap:20px;
+}
     .main-nav ul li {
         margin: var(--spacing-sm) 0;
         text-align: center;
